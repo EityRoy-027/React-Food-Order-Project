@@ -6,15 +6,20 @@ function App() {
     alert("Food Menu Opened")
   }
 
-  const handleRezela = () =>{
+  const handleRezela = (event) =>{
+
+    event.stopPropagation()
+    
     alert("Mutton Rezela Ordered")
   }
 
-  const handleRoast = () =>{
+  const handleRoast = (event) =>{
+     event.stopPropagation()
     alert("Chicken Roast Ordered")
   }
 
-  const handleBurger = () =>{
+  const handleBurger = (event) =>{
+     event.stopPropagation()
     alert("Chicken Burger Ordered")
   }
   return (
