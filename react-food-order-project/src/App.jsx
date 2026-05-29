@@ -10,7 +10,7 @@ function App() {
     alert("Mutton Rezela Ordered")
   }
 
-  const handleRezela = () =>{
+  const handleRoast = () =>{
     alert("Mutton Rezela Ordered")
   }
 
