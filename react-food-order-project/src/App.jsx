@@ -2,7 +2,21 @@
 
 function App() {
  
+  const handleMenu = () =>{
+    alert("Food Menu Opened")
+  }
 
+  const handleRezela = () =>{
+    alert("Mutton Rezela Ordered")
+  }
+
+  const handleRezela = () =>{
+    alert("Mutton Rezela Ordered")
+  }
+
+  const handleRezela = () =>{
+    alert("Mutton Rezela Ordered")
+  }
   return (
     <>
   
