@@ -7,17 +7,23 @@ function App() {
     <>
   
 
-   <div className="h-screen flex justify-center items-center">
+   <div className="h-screen flex flex-col justify-center items-center">
 
-  <h1>Food Menu</h1> 
+   
 
-   <div className="">
+   <div className="w-[400px] h-[400px] rounded-md bg-gray-300 flex flex-col justify-center">
+
+   <h1 className="font-bold text-3xl w-full flex justify-center pt-5">Food Menu</h1> 
+
+   <div className="w-full h-full rounded-md bg-gray-300 flex gap-4">
 
    <button>Mutton Rezela</button>  
 
    <button>Burger</button>
 
    <button>Chicken Roast</button>
+
+   </div>
 
    </div>
 
