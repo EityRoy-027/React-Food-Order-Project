@@ -1,4 +1,5 @@
 
+//stop propagation()
 
 function App() {
  
