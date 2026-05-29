@@ -11,11 +11,11 @@ function App() {
   }
 
   const handleRoast = () =>{
-    alert("Mutton Rezela Ordered")
+    alert("Chicken Roast Ordered")
   }
 
   const handleBurger = () =>{
-    alert("Mutton Rezela Ordered")
+    alert("Chicken Burger Ordered")
   }
   return (
     <>
@@ -33,7 +33,7 @@ function App() {
 
    <button onClick={handleRezela} className="px-4 py-4 bg-red-600 rounded-md text-white font-bold ">Mutton Rezela</button>  
 
-   <button onAuxClick={handleBurger} className="px-4 py-4 bg-red-600 rounded-md text-white font-bold "> Chicken Burger</button>
+   <button onClick={handleBurger} className="px-4 py-4 bg-red-600 rounded-md text-white font-bold "> Chicken Burger</button>
 
    <button onClick={handleRoast} className="px-5 py-4 bg-red-600 rounded-md text-white font-bold ">Chicken Roast</button>
 
