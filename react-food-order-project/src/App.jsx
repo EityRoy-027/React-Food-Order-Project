@@ -15,9 +15,9 @@ function App() {
 
    <h1 className="font-bold text-3xl w-full flex justify-center pt-5">Food Menu</h1> 
 
-   <div className="w-full h-full rounded-md bg-gray-300 flex gap-4">
+   <div className="w-full h-full rounded-md bg-gray-300 flex flex-col justify-center items-center gap-4">
 
-   <button>Mutton Rezela</button>  
+   <button className="px-3 py-4 bg-red-600 rounded-md text-white font-bold">Mutton Rezela</button>  
 
    <button>Burger</button>
 
